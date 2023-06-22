@@ -165,7 +165,7 @@ nav .menu{
   background: rgb(0, 0, 0);
 }
 .programs{
-  background-color: #AFAEB3;
+  background-image: linear-gradient(to right, #fffffe, #F78222);
 }
 .programs h1{
   text-align: center;
@@ -213,6 +213,7 @@ nav .menu{
   flex-direction: row;
   margin: 20px;
   box-shadow: 5px 6px #00000055;
+  z-index: 1;
 }
 .card-img{
   width: 80%;
@@ -246,13 +247,12 @@ nav .menu{
   font-weight: 800;
   text-align: center;
 }
-.programs .circle{
+/* .programs .circle{
   position: absolute;
   top: 485px;
   left: 0;
   width: 100%;
   height: 100%;
-  background: #F78222;
-  clip-path: circle(600px at right 1000px);
-  z-index: 0;
-}
+  background: #f78222;
+  clip-path: circle(700px at right 1000px);
+} */
