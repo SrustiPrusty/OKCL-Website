@@ -164,9 +164,13 @@ nav .menu{
   color: #F78222;
   background: rgb(0, 0, 0);
 }
+.programs{
+  background-color: grey;
+}
 .programs h1{
   text-align: center;
   margin-top: 3rem;
+  padding: 0.5rem;
 }
 .programs .programbuttons{
   margin-top: 30px;
@@ -189,5 +193,56 @@ nav .menu{
 .programbuttons button:hover{
   color: #F78222;
   background: rgb(0, 0, 0);
+}
+.allcards{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  width: 350px;
+  height: 180px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 0, 0);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.card-img{
+  width: 80%;
+  height: 90%;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 35px;
   
+}
+.card-body{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  position: absolute;
+  background-color: #1f3d4738;
+  backdrop-filter: blur(9px);
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  padding: 20px;
+  justify-content: center;
+  transition: 0.6s;
+}
+.card:hover .card-body{
+  right: 0;
+
+
+}
+.card-info{
+  font-size: 12px;
+  margin: 30px 0;
+  font-weight: 800;
+  text-align: center;
 }
