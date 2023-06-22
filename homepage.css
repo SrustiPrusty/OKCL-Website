@@ -164,3 +164,30 @@ nav .menu{
   color: #F78222;
   background: rgb(0, 0, 0);
 }
+.programs h1{
+  text-align: center;
+  margin-top: 3rem;
+}
+.programs .programbuttons{
+  margin-top: 30px;
+  margin-left: 19rem;
+}
+.programs .programbuttons button{
+  height: 45px;
+  width: 280px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 10px;
+  border: 2px solid #F78222;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0 10px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.programbuttons button:hover{
+  color: #F78222;
+  background: rgb(0, 0, 0);
+  
+}
