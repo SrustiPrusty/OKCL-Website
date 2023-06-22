@@ -323,4 +323,17 @@ nav .menu{
   background: #f48021bc;
   clip-path: circle(700px at right 1100px);
 }
+.achieve h1{
+  text-align: center;
+  margin-top: 3rem;
+  color:#001D45;
+  padding: 0.5rem;
+  letter-spacing: 0.1rem;
+  font-size: 3rem;
+}
+achieve-img {
+  background-image: linear-gradient(to bottom, rgba(0, 29, 69, 0.738), rgba(0, 29, 69, 0.244)), 
+  url(achievementpicture.jpg);
+
+}
 
