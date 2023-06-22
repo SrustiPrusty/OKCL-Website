@@ -67,7 +67,7 @@ nav .menu{
 }
 .img{
   background-image:
-   linear-gradient(to bottom, rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.244)), 
+   linear-gradient(to bottom, rgba(0, 29, 69, 0.738), rgba(0, 29, 69, 0.244)), 
   url(download.jpg);
   width: 100%;
   height: 85vh; 
@@ -165,11 +165,12 @@ nav .menu{
   background: rgb(0, 0, 0);
 }
 .programs{
-  background-image: linear-gradient(to right, #fffffe, #F78222);
+  background-image: linear-gradient(to right, #ffffff, #ffffffae);
 }
 .programs h1{
   text-align: center;
   margin-top: 3rem;
+  color:#001D45;
   padding: 0.5rem;
 }
 .programs .programbuttons{
@@ -184,7 +185,7 @@ nav .menu{
   margin: 0 10px;
   border: 2px solid #F78222;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
   padding: 0 10px;
   cursor: pointer;
   outline: none;
@@ -207,12 +208,12 @@ nav .menu{
   border-radius: 10px;
   overflow: hidden;
   background-color: rgb(255, 255, 255);
-  border: 2px solid rgb(255, 255, 255);
+  border: 2px solid #cacaca;
   position: relative;
   display: flex;
   flex-direction: row;
   margin: 20px;
-  box-shadow: 5px 6px #00000055;
+  box-shadow: 5px 6px #61616170;
   z-index: 1;
 }
 .card-img{
@@ -247,12 +248,12 @@ nav .menu{
   font-weight: 800;
   text-align: center;
 }
-/* .programs .circle{
+.programs .circle{
   position: absolute;
   top: 485px;
   left: 0;
   width: 100%;
   height: 100%;
-  background: #f78222;
+  background: #001D45;
   clip-path: circle(700px at right 1000px);
-} */
+}
