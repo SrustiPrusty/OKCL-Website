@@ -165,7 +165,7 @@ nav .menu{
   background: rgb(0, 0, 0);
 }
 .programs{
-  background-color: grey;
+  background-color: #AFAEB3;
 }
 .programs h1{
   text-align: center;
@@ -195,24 +195,24 @@ nav .menu{
   background: rgb(0, 0, 0);
 }
 .allcards{
+  justify-content: center;
   margin-top: 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
+  display: inline-flex;
+ flex-wrap: wrap;
   
 }
 .card{
-  width: 350px;
-  height: 180px;
+  width: 300px;
+  height: 150px;
   border-radius: 10px;
   overflow: hidden;
   background-color: rgb(255, 255, 255);
-  border: 2px solid rgb(0, 0, 0);
+  border: 2px solid rgb(255, 255, 255);
   position: relative;
   display: flex;
   flex-direction: row;
   margin: 20px;
+  box-shadow: 5px 6px #00000055;
 }
 .card-img{
   width: 80%;
@@ -246,12 +246,13 @@ nav .menu{
   font-weight: 800;
   text-align: center;
 }
-.circle{
+.programs .circle{
   position: absolute;
-  top: 96;
+  top: 485px;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #F78222;
-  clip-path: circle(600px at right 800px);
+  background: #F78222;
+  clip-path: circle(600px at right 1000px);
+  z-index: 0;
 }
