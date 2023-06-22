@@ -10,11 +10,13 @@
   background: #fff;
 }
 nav{
+
   position: fixed;
   background: #ffffff00;
   width: 100%;
   padding: 1px 0;
   z-index: 12;
+  /* background-color: #001D45; */
 }
 nav .menu{
   max-width: 1200px;
