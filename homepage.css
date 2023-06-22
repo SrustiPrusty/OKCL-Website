@@ -277,22 +277,42 @@ nav .menu{
   padding: 0 24px;
   color: white;
   font-weight: bold;
+  z-index: 200;
 }
 .notification-container ul {
   display: flex;
   list-style: none;
+  margin: 0;
+  animation: scroll 25s infinite linear;
+  
 }
 .notification-container ul li{
   white-space: nowrap;
   margin: 0;
   padding: 10px 24px;
-  color: #494949;
+  color: #fffcfc;
   position: relative;
+  background-color: #001D45;
 }
-.notification-container ul li ::after{
+.notification-container ul li::after {
   content: "";
   width:  1px;
   height: 100%;
-  background-color: #b8b8b8;
+  background-color: #a0a0a0;
   position: absolute;
+  top: 0;
+  right: 0;
+}
+.notification-container ul li:last-child::after {
+  display: none;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(100%);
+  }
+  to{
+    transform: translateX(-1514px);
+  }
+  
 }
