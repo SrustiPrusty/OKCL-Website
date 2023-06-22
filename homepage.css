@@ -246,3 +246,12 @@ nav .menu{
   font-weight: 800;
   text-align: center;
 }
+.circle{
+  position: absolute;
+  top: 96;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #F78222;
+  clip-path: circle(600px at right 800px);
+}
