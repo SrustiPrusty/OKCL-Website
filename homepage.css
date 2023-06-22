@@ -331,9 +331,13 @@ nav .menu{
   letter-spacing: 0.1rem;
   font-size: 3rem;
 }
-achieve-img {
+.achieve-img {
   background-image: linear-gradient(to bottom, rgba(0, 29, 69, 0.738), rgba(0, 29, 69, 0.244)), 
   url(achievementpicture.jpg);
-
+  width: 800px;
+  height: 700px;
+  position: relative;
+  top: 2rem;
+ left: 19rem;
 }
 
