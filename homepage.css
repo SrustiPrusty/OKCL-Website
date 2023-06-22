@@ -10,15 +10,17 @@
   background: #fff;
 }
 nav{
+  margin-top: 1px;
   position: fixed;
   background: #ffffff00;
   width: 100%;
   padding: 1px 0;
   z-index: 12;
-  /* background-color: #001D45; */
+  background-color: #001D45;
 }
 nav .menu{
   max-width: 1200px;
+  height: 47px;
   margin: auto;
   display: flex;
   align-items: center;
@@ -36,9 +38,9 @@ nav .menu{
   height: 60px;
     margin-right: 0.8rem;
     position: relative;
-    margin-top: -0.6rem;
+    margin-top: 0rem;
     left: -5px;
-    top: 16px;
+    top: 1px;
 }
 
 .menu ul{
@@ -71,10 +73,11 @@ nav .menu{
    linear-gradient(to bottom, rgba(0, 29, 69, 0.738), rgba(0, 29, 69, 0.244)), 
   url(download.jpg);
   width: 100%;
-  height: 85vh; 
+  height: 95vh; 
   background-size: cover;
   background-position: center;
   position: relative;
+  margin-top: 44px;
 }
 .img::before{
   content: '';
@@ -261,7 +264,7 @@ nav .menu{
   clip-path: circle(700px at right 1000px);
 }
 .notification-container{
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   left: 0;
@@ -290,9 +293,9 @@ nav .menu{
   white-space: nowrap;
   margin: 0;
   padding: 10px 24px;
-  color: #fffcfc;
+  color: #000000;
   position: relative;
-  background-color: #001D45;
+  background-color: #ffffff;
 }
 .notification-container ul li::after {
   content: "";
