@@ -210,6 +210,7 @@ nav .menu{
   position: relative;
   display: flex;
   flex-direction: column;
+  margin: 20px;
 }
 .card-img{
   width: 80%;
@@ -218,7 +219,6 @@ nav .menu{
   border-radius: 10px;
   margin-top: 10px;
   margin-left: 35px;
-  
 }
 .card-body{
   width: 100%;
@@ -237,8 +237,6 @@ nav .menu{
 }
 .card:hover .card-body{
   right: 0;
-
-
 }
 .card-info{
   font-size: 12px;
