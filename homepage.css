@@ -260,3 +260,39 @@ nav .menu{
   background: #f48021bc;
   clip-path: circle(700px at right 1000px);
 }
+.notification-container{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-shadow: 0 4px 8px -4px rgba(0, 0, 0, 0.3);
+}
+.notification-container .noti-title{
+  position: absolute;
+  background-color: #df2020;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  color: white;
+  font-weight: bold;
+}
+.notification-container ul {
+  display: flex;
+  list-style: none;
+}
+.notification-container ul li{
+  white-space: nowrap;
+  margin: 0;
+  padding: 10px 24px;
+  color: #494949;
+  position: relative;
+}
+.notification-container ul li ::after{
+  content: "";
+  width:  1px;
+  height: 100%;
+  background-color: #b8b8b8;
+  position: absolute;
+}
