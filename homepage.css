@@ -120,7 +120,7 @@ nav .menu{
   letter-spacing: 0.1rem;
 }
 .center .sub_title{
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 15px;
   font-weight: 300;
   width: 68rem;
@@ -172,6 +172,7 @@ nav .menu{
   margin-top: 3rem;
   color:#001D45;
   padding: 0.5rem;
+  letter-spacing: 0.1rem;
 }
 .programs .programbuttons{
   margin-top: 30px;
