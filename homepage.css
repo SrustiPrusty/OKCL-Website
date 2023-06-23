@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300;400;500;600;700&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Noto Serif', serif;
 }
 ::selection{
   color: #000;
@@ -237,7 +237,7 @@ nav .menu{
   color:#001D45;
   padding: 0.5rem;
   letter-spacing: 0.1rem;
-  font-size: 3rem;
+  font-size: 2.6rem;
 }
 .programs .programbuttons{
   margin-top: 30px;
@@ -332,10 +332,10 @@ nav .menu{
   color:#001D45;
   padding: 0.5rem;
   letter-spacing: 0.1rem;
-  font-size: 3rem;
+  font-size: 2.6rem;
 }
 .achieve-img {
-  background-image: linear-gradient(to bottom,  rgba(0, 29, 69, 0.581), rgba(0, 29, 69, 0.71)),
+  background-image: linear-gradient(to bottom,  rgba(0, 29, 69, 0.156), rgba(0, 29, 69, 0.512)),
   url('achievementpicture.jpg');
   width: 1500px;
   height: 450px;
@@ -344,15 +344,15 @@ nav .menu{
   left: 0.6rem;
  background-repeat: no-repeat;
  background-size: cover;
- z-index: 999;
 }
 .counters {
-	background: #f78222;
+	background: #000000;
 	color: #fffdfd;
-	padding: 30px 100px;
-  margin: 0px 90px;
-	border-top: 3px rgb(0, 0, 0) solid;
-  top: 1000px;
+	padding: 40px 90px;
+  margin: 0px 150px;
+	border: 3px rgb(0, 0, 0) solid;
+  top: -3px;
+  position: relative;
 }
 
 .counters .container {
@@ -371,4 +371,5 @@ nav .menu{
 	font-size: 45px;
 	margin: 10px 0;
   font-weight: 400;
+  letter-spacing: 0.15rem;
 }
