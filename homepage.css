@@ -564,12 +564,58 @@ footer .foot-container .contact-info h2{
   margin-bottom: 20px;
 }
 footer .foot-container .contact-info p{
-  color: grey;
+  color: rgb(183, 183, 183);
 }
-footer .foot-container .contact-info sciss{
+footer .foot-container .contact-info .sci{
   margin-top: 20px;
   display: grid;
   grid-template-columns: repeat(3, 70px);
+  width: 100px;
 }
-
-
+footer .foot-container .contact-info .sci li {
+  list-style: none;
+}
+footer .foot-container .contact-info .sci li a{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #fffafa;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  text-decoration: none;
+}
+footer .foot-container .contact-info .sci li a i{
+  color: white;
+  font-size: 35px; !important
+}
+footer .foot-container .menu-items h2 {
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+footer .foot-container .menu-items ul li {
+  margin-top: 20px;
+  list-style: none;
+}
+footer .foot-container .menu-items ul li a{
+  margin-top: 10px;
+  color: rgb(183, 183, 183);
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+footer .foot-container .contact-info .infoo li{
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  margin-bottom: 16px;
+}
+footer .foot-container .contact-info .infoo li span{
+  color: white; !important
+  font-size: 20px;
+}
+footer .foot-container .contact-info .infoo li a{
+  color: rgb(183, 183, 183);
+  text-decoration: none;
+}
