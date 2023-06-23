@@ -320,8 +320,8 @@ nav .menu{
   left: 0;
   width: 100%;
   height: 100%;
-  background: #f48021bc;
-  clip-path: circle(700px at right 1100px);
+  background: #f48021;
+  clip-path: circle(800px at right 1100px);
 }
 .achieve{
   background-color: #ffffff;
@@ -362,10 +362,10 @@ nav .menu{
 	text-align: center;
 }
 
-/* .counters i {
+ .counters i {
 	color: lightskyblue;
 	margin-bottom: 5px;
-} */
+} 
 
 .counters .counter {
 	font-size: 45px;
