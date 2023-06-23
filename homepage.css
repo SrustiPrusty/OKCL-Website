@@ -87,7 +87,6 @@ nav .menu{
 .dropdown_menu ul li{
   width: 270px;
   padding: 1px;
-  
 }
 
 .fas{
@@ -515,7 +514,7 @@ nav .menu{
  background-size: cover;
 }
 .counters {
-	background: #000000;
+	background: #000000e8;
 	color: #fffdfd;
 	padding: 40px 90px;
   margin: 0px 150px;
@@ -532,15 +531,18 @@ nav .menu{
 }
 
  .counters i {
-	color: lightskyblue;
-	margin-bottom: 5px;
+	color: #ffffff;
+  width: 80px;
+  height: 50px;
 } 
 
 .counters .counter {
-	font-size: 45px;
+	font-size: 40px;
 	margin: 10px 0;
   font-weight: 400;
   letter-spacing: 0.15rem;
 }
+
+
 
 
