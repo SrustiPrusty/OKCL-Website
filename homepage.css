@@ -347,8 +347,8 @@ nav .menu{
  z-index: 999;
 }
 .counters {
-	background: #001D45;
-	color: #fff;
+	background: #f78222;
+	color: #fffdfd;
 	padding: 30px 100px;
   margin: 0px 90px;
 	border-top: 3px rgb(0, 0, 0) solid;
@@ -362,13 +362,13 @@ nav .menu{
 	text-align: center;
 }
 
-.counters i {
+/* .counters i {
 	color: lightskyblue;
 	margin-bottom: 5px;
-}
+} */
 
 .counters .counter {
 	font-size: 45px;
 	margin: 10px 0;
+  font-weight: 900;
 }
-
