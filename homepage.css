@@ -87,6 +87,7 @@ nav .menu{
 .dropdown_menu ul li{
   width: 270px;
   padding: 1px;
+  border-bottom: 1px solid #f3f3f332;
 }
 
 .fas{
