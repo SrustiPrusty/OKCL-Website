@@ -335,7 +335,7 @@ nav .menu{
   font-size: 3rem;
 }
 .achieve-img {
-  background-image: linear-gradient(to bottom,  rgba(0, 29, 69, 0.296), rgba(0, 29, 69, 0.71)),
+  background-image: linear-gradient(to bottom,  rgba(0, 29, 69, 0.581), rgba(0, 29, 69, 0.71)),
   url('achievementpicture.jpg');
   width: 1500px;
   height: 450px;
