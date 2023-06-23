@@ -233,7 +233,7 @@ nav .menu{
 }
 .programs h1{
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 4rem;
   color:#001D45;
   padding: 0.5rem;
   letter-spacing: 0.1rem;
@@ -316,7 +316,7 @@ nav .menu{
 }
 .programs .circle{
   position: absolute;
-  top: 545px;
+  top: 970px;
   left: 0;
   width: 100%;
   height: 100%;
