@@ -344,5 +344,31 @@ nav .menu{
   left: 0.6rem;
  background-repeat: no-repeat;
  background-size: cover;
+ z-index: 999;
+}
+.counters {
+	background: #001D45;
+	color: #fff;
+	padding: 30px 100px;
+  margin: 0px 90px;
+	border-top: 3px rgb(0, 0, 0) solid;
+  top: 1000px;
+}
+
+.counters .container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 0px;
+	text-align: center;
+}
+
+.counters i {
+	color: lightskyblue;
+	margin-bottom: 5px;
+}
+
+.counters .counter {
+	font-size: 45px;
+	margin: 10px 0;
 }
 
