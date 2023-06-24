@@ -515,11 +515,11 @@ nav .menu{
  background-size: cover;
 }
 .counters {
-	background: #000000e8;
+	background: #001d45;
 	color: #fffdfd;
 	padding: 40px 90px;
   margin: 0px 150px;
-	border: 3px rgb(0, 0, 0) solid;
+	border: 5px rgb(255, 255, 255) solid;
   top: -3px;
   position: relative;
 }
@@ -547,24 +547,27 @@ footer{
   margin-top: 60px;
   position: relative;
   width: 100%;
-  height: auto;
+  height: 370px;
   padding: 50px 100px;
-  background-color: #837100;
+  background-color: #272727;
 }
 footer .foot-container{
   width: 100%;
   display: grid;
   grid-template-columns: 5fr 2fr;
-  grid-gap: 20px;
+  grid-gap: 10px;
 }
 footer .foot-container .contact-info h2{
   position: relative;
   color: rgb(255, 255, 255);
   font-weight: 600;
   margin-bottom: 20px;
+  font-size: 20px;
 }
 footer .foot-container .contact-info p{
   color: rgb(183, 183, 183);
+  font-size: 15px;
+  margin-bottom: 0px;
 }
 footer .foot-container .contact-info .sci{
   margin-top: 20px;
@@ -579,7 +582,7 @@ footer .foot-container .contact-info .sci li a{
   display: inline-block;
   width: 40px;
   height: 40px;
-  background-color: #fffafa;
+  background-color: #272727;
   display: grid;
   align-content: center;
   justify-content: center;
@@ -587,24 +590,29 @@ footer .foot-container .contact-info .sci li a{
 }
 footer .foot-container .contact-info .sci li a i{
   color: white;
-  font-size: 35px; !important
+  font-size: 30px; !important
 }
 footer .foot-container .menu-items h2 {
   position: relative;
   color: rgb(255, 255, 255);
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
 }
 footer .foot-container .menu-items ul li {
-  margin-top: 20px;
+  margin-top: 0px;
   list-style: none;
 }
 footer .foot-container .menu-items ul li a{
   margin-top: 10px;
   color: rgb(183, 183, 183);
   text-decoration: none;
-  margin-bottom: 10px;
-  display: inline-block;
+  margin-bottom: -80px;
+  display: inline-block; 
+  font-size: 15px;
+}
+footer .foot-container .menu-items ul li a:hover{
+  color: #f48021;
 }
 footer .foot-container .contact-info .infoo li{
   display: grid;
@@ -618,4 +626,15 @@ footer .foot-container .contact-info .infoo li span{
 footer .foot-container .contact-info .infoo li a{
   color: rgb(183, 183, 183);
   text-decoration: none;
+}
+.copyright_text{
+  width: 100%;
+  background-color: white;
+  padding: 20px 100px 30px;
+  text-align: center;
+  color: #555;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #222222;
 }
