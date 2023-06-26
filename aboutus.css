@@ -126,8 +126,9 @@
    url(okcl_about.jpg);
     background-size: cover;
     position: relative;
+    background-repeat: no-repeat;
 }
-.blurcontainer{
+/* .blurcontainer{
     width: 50%;
     height: 100vh;
     background: rgba(0, 29, 69, 0.333);
@@ -135,20 +136,32 @@
     position: absolute;
     left: 0;
     top: 0;
+} */
+.blurcontainer{
+    width: 50%;
+    height: 30vh;
+    background: rgba(0, 29, 69, 0.333); 
+    backdrop-filter: blur(10px); 
+    position: absolute;
+    left: 0;
+    top: 0;
 }
-.aboutokcl{
+.galleryy{
     width: 550px;
     color: white;
     position: absolute;
-    right: 0;
-top: 50%;
-transform: translateY(-50%);
+    right: -380px;
+    top: 50%;
+    /* transform: translateY(-50%); */
 }
-.aboutokcl h4{
+.galleryy h4{
     font-size: 60px;
     letter-spacing: 5px;
+    color: #001D45;
+    font-weight: 800;
+    margin-left: -450px;
 }
-.aboutokcl p{
+.galleryy p{
     color: #ffffff;
     font-size: 16px;
     margin: 20px;

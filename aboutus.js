@@ -4,12 +4,31 @@ var thumbnail = document.getElementsByClassName("thumbnail");
 var hero = document.getElementById("hero");
 
 var backgroundImg =  new Array(
-    "image1.png",
-    "image2.png",
-    "image3.png",
+    "image1.jpg",
+    "image2.jpg",
+    "image3.jpg",
     "image4.jpg",
 );
 let i = 0;
 next.onclick = function(){
-    hero.style.backgroundImage = 'url("'+backgroundImg[i+1]+'")';
+
+
+    if(i < 3){
+        hero.style.backgroundImage = 'url("'+backgroundImg[i+1]+'")';
+        thumbnail[i+1].classList.add("active");
+        thumbnail[i].classList.remove("active");
+        i++;
+    }
+    
+}
+prev.onclick = function(){
+
+
+    if(i > 0){
+        hero.style.backgroundImage = 'url("'+backgroundImg[i-1]+'")';
+        thumbnail[i-1].classList.add("active");
+        thumbnail[i].classList.remove("active");
+        i--;
+    }
+    
 }
