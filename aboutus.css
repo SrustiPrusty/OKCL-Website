@@ -31,3 +31,23 @@
 .btn-box button:hover .fas1{
     color: #ff7846;
 }
+.content-right img{
+    width: 350px;
+}
+.about-uscontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+}
+.content-left{
+    flex-basis: 50%;
+}
+.content-left p{
+    font: 13px;
+    padding: 30px 0px;
+}
+.content-right{
+    flex-basis: 50%;
+    text-align: center;
+}
