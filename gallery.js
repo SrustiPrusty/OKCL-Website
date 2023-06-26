@@ -6,8 +6,8 @@ var hero = document.getElementById("hero");
 var backgroundImg =  new Array(
     "images/image1.jpg",
     "images/image2.jpg",
-    "image3.jpg",
-    "image4.jpg",
+    "images/image3.jpg",
+    "images/image4.jpg",
 );
 let i = 0;
 next.onclick = function(){
