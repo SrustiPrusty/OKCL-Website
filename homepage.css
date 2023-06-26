@@ -97,7 +97,7 @@ nav .menu{
 .img{
   background-image:
    linear-gradient(to bottom, rgba(0, 29, 69, 0.738), rgba(0, 29, 69, 0.244)), 
-  url(download.jpg);
+  url(images/download.jpg);
   width: 100%;
   height: 92vh; 
   background-size: cover;
@@ -505,7 +505,7 @@ nav .menu{
 }
 .achieve-img {
   background-image: linear-gradient(to bottom,  rgba(0, 29, 69, 0.156), rgba(0, 29, 69, 0.512)),
-  url('achievementpicture.jpg');
+  url('images/achievementpicture.jpg');
   width: 1500px;
   height: 450px;
   position: relative;
