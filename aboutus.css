@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Serif', serif;
+}
+.heroo{
+    width: 80%;
+    height: 450px;
+    position: relative;
+    margin: 100px auto;
+}
+.btn-box{
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+.btn-box button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
