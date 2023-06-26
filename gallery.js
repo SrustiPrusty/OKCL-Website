@@ -5,7 +5,7 @@ var hero = document.getElementById("hero");
 
 var backgroundImg =  new Array(
     "images/image1.jpg",
-    "image2.jpg",
+    "images/image2.jpg",
     "image3.jpg",
     "image4.jpg",
 );
