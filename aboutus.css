@@ -24,3 +24,10 @@
     font-size: 20px;
     font-weight: bold;
 }
+.btn-box .fas1{
+    margin-right: 20px;
+
+}
+.btn-box button:hover .fas1{
+    color: #ff7846;
+}
