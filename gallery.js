@@ -4,7 +4,7 @@ var thumbnail = document.getElementsByClassName("thumbnail");
 var hero = document.getElementById("hero");
 
 var backgroundImg =  new Array(
-    "image1.jpg",
+    "images/image1.jpg",
     "image2.jpg",
     "image3.jpg",
     "image4.jpg",
