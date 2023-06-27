@@ -567,7 +567,7 @@ footer .foot-container{
 }
 footer .foot-container .contact-info h2{
   position: relative;
-  color: rgb(255, 255, 255);
+  color: rgb(211, 211, 211);
   font-weight: 600;
   margin-bottom: 20px;
   font-size: 20px;
@@ -605,7 +605,7 @@ footer .foot-container .contact-info .sci li a i{
 }
 footer .foot-container .menu-items h2 {
   position: relative;
-  color: rgb(255, 255, 255);
+  color: rgb(211, 211, 211);
   font-weight: 600;
   margin-bottom: 10px;
   font-size: 20px;

@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Serif', serif;
+}
+::selection{
+  color: #000;
+  background: #fff;
+}
+nav{
+  margin: 0;
+  top: 0;
+  position: fixed;
+  background: #ffffff00;
+  width: 100%;
+  padding: 1px 0;
+  z-index: 12;
+  background-color: #001D45;
+}
+nav .menu{
+  max-width: 1200px;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 0 0px; */
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.img1{
+  width: 70px;
+  height: 48px;
+    margin-right: 0.8rem;
+    position: relative;
+    margin-top: 0rem;
+    left: -5px;
+}
+
+.menu ul{
+    margin-top: 5px;
+  display: inline-flex;
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
+  margin-top: 17px;
+  position: relative;
+}
+.menu ul li:first-child{
+  margin-left: 0px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 9px 25px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.menu ul li a:hover{
+  background: #000000;
+  color: rgb(255, 255, 255);
+}
+.dropdown_menu{
+  display: none;
+}
+.menu ul li:hover .dropdown_menu{
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: #001D45;
+}
+
+.dropdown_menu ul{
+  display: block;
+  margin: 10px; 
+}
+.dropdown_menu ul li{
+  width: 270px;
+  padding: 1px;
+  border-bottom: 1px solid #f3f3f332;
+}
+
+.fas{
+  margin-left: 10px;
+  padding-top: 3px;
+}
+
+.buttonmenu button{
+    height: 40px;
+    width: 160px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+    border: 2px solid #F78222;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    background-color: #f78222;
+    color: #000000;
+    outline: none;
+    transition: all 0.3s ease;
+}
+.buttonmenu button:hover{
+    color: #F78222;
+    background: rgb(0, 0, 0);
+    
+}
+
+/* FOOTER STARTS  */
+
+footer{
+    margin-top: 60px;
+    position: relative;
+    width: 100%;
+    height: 370px;
+    padding: 50px 100px;
+    background-color: #272727;
+    
+  }
+  footer .foot-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 420px);
+    grid-gap: 60px;
+    margin-left: 50px;
+  }
+  footer .foot-container .contact-info h2{
+    position: relative;
+    color: rgb(211, 211, 211);
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-left: -120px;
+  }
+  footer .foot-container .contact-info p{
+    color: rgb(183, 183, 183);
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-left: -120px;
+  }
+  footer .foot-container .contact-info .sci{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 70px);
+    width: 100px;
+  }
+  footer .foot-container .contact-info .sci li {
+    list-style: none;
+  }
+  footer .foot-container .contact-info .sci li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #272727;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: -120px;
+  }
+  footer .foot-container .contact-info .sci li a i{
+    color: white;
+    font-size: 30px; !important
+  }
+  footer .foot-container .menu-items h2 {
+    position: relative;
+    color: rgb(211, 211, 211);
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  footer .foot-container .menu-items ul li {
+    margin-top: 0px;
+    list-style: none;
+  }
+  footer .foot-container .menu-items ul li a{
+    margin-top: 10px;
+    color: rgb(183, 183, 183);
+    text-decoration: none;
+    margin-bottom: -80px;
+    display: inline-block; 
+    font-size: 15px;
+  }
+  footer .foot-container .menu-items ul li a:hover{
+    color: #f48021;
+  }
+  footer .foot-container .contact-info .infoo li{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    margin-bottom: 16px;
+  }
+  footer .foot-container .contact-info .infoo li span{
+    color: white; !important
+    font-size: 20px;
+  }
+  footer .foot-container .contact-info .infoo li a{
+    color: rgb(183, 183, 183);
+    text-decoration: none;
+  }
+  .copyright_text{
+    width: 100%;
+    background-color: white;
+    padding: 20px 100px 30px;
+    text-align: center;
+    color: #555;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #222222;
+  }
+
+  
+/* FOOTER WITH COPYRIGHT ENDS */
