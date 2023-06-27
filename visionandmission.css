@@ -165,11 +165,11 @@ nav{
     flex-basis: 50%;
 }
 .contentt-left p{
-    font-size: 16px;
+    font-size: 15px;
     padding: 30px 0px;
     margin-top: -50px;
     font-weight: 600;
-    margin-left: 35px;
+    margin-left: 60px;
 }
 .contentt-right{
     flex-basis: 50%;
