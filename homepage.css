@@ -280,9 +280,11 @@ nav .menu{
 }  
 .os-citpart{
   background-color: rgb(255, 255, 255);
-  width: 550px;
-  height: 350px;
+  width: 430px;
+  height: 200px;
   box-sizing: border-box;
+  margin-top: 125px;
+  margin-left: 20px;
 
 }
 .os-citheading h3 {
@@ -290,16 +292,16 @@ nav .menu{
   width: 29rem;
   margin-right: 63.8rem;
   margin-top: 5rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #001D45;
   margin-left: 125px;
   margin-bottom: 10px;
 } 
 .os-content p {
   margin-right:2rem;
-  font-size: 1rem;
+  font-size: 0.98rem;
   font-weight: 400;
-  margin-left: 75px;
+  margin-left: 50px;
   width: 600px;
 }
 
@@ -320,23 +322,23 @@ nav .menu{
   height: 70%;
   object-fit: contain;
   border-radius: 10px;
-  margin-top: 20px;
+  margin-top: 15px;
   margin-left: 70px;
 }
 .os-citbutton button{
   height: 40px;
-  width: 160px;
+  width: 120px;
   border-radius: 5px;
   border: none;
   margin-top: 25px;
-  margin-left: 250px;
+  margin-left: 280px;
   border: 2px solid #F78222;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 900;
   padding: 0 10px;
   cursor: pointer;
   background-color: #f78222;
-  color: #000000;
+  color: #fcfcfc;
   outline: none;
   transition: all 0.3s ease;
 }
@@ -350,7 +352,7 @@ nav .menu{
   padding: 10px;
   margin-left:16rem;
   margin-top: 1rem;
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   color: #001D45;
 } 
 
@@ -364,13 +366,13 @@ nav .menu{
   margin-left: 3rem;
   border-left: 20px solid #df2020;
   /* background-color: rgba(255, 255, 255, 0.895); */
-  background-color: rgb(255, 245, 227) ;
+  background-color: rgb(255, 250, 240) ;
   box-shadow: 6px 6px 9px 2px #001d459b;
 }
 
 #box > div {
   width: 100%;
-  height: 50px;
+  height: 60px;
   padding: 05px;
   margin: 10px 5px;
   font-weight: bolder;
@@ -402,11 +404,11 @@ nav .menu{
 }
 .programs h1{
   text-align: center;
-  margin-top: 4rem;
+  margin-top: 32rem;
   color:#001D45;
   padding: 0.5rem;
   letter-spacing: 0.1rem;
-  font-size: 2.6rem;
+  font-size: 2.4rem;
 }
 .programs .programbuttons{
   margin-top: 30px;
@@ -501,11 +503,11 @@ nav .menu{
 }
 .achieve h1{
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 5rem;
   color:#001D45;
   padding: 0.5rem;
   letter-spacing: 0.1rem;
-  font-size: 2.6rem;
+  font-size: 2.4rem;
 }
 .achieve-img {
   background-image: linear-gradient(to bottom,  rgba(0, 29, 69, 0.156), rgba(0, 29, 69, 0.512)),
