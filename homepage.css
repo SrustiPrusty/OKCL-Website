@@ -96,14 +96,15 @@ nav .menu{
 }
 .img{
   background-image:
-   linear-gradient(to bottom, rgba(0, 29, 69, 0.738), rgba(0, 29, 69, 0.244)), 
-  url(images/download.jpg);
+   linear-gradient(to bottom, rgba(0, 29, 69, 0.104), rgba(0, 29, 69, 0.132)), 
+  url(images/swcase.png);
   width: 100%;
   height: 92vh; 
   background-size: cover;
   background-position: center;
   position: relative;
   margin-top: 44px;
+  background-repeat: no-repeat;
 }
 .img::before{
   content: '';
@@ -364,7 +365,7 @@ nav .menu{
   margin-left: 3rem;
   border-left: 20px solid #df2020;
   /* background-color: rgba(255, 255, 255, 0.895); */
-  background-color: #001d4514 ;
+  background-color: rgb(255, 245, 227) ;
   box-shadow: 6px 6px 9px 2px #001d459b;
 }
 
@@ -418,17 +419,20 @@ nav .menu{
   border-radius: 5px;
   border: none;
   margin: 0 10px;
-  border: 2px solid #ababab;
+  border: 2px solid #f78222;
   font-size: 15px;
   font-weight: 400;
   padding: 0 10px;
   cursor: pointer;
   outline: none;
   transition: all 0.3s ease;
+  background-color: transparent;
+  color: #000;
+  box-shadow: 10px 5px 5px #5555554b;
 }
 .programbuttons button:hover{
   color: #F78222;
-  background: rgb(0, 0, 0);
+  background: #001D45;
 }
 .allcards{
   justify-content: center;
@@ -505,7 +509,7 @@ nav .menu{
 }
 .achieve-img {
   background-image: linear-gradient(to bottom,  rgba(0, 29, 69, 0.156), rgba(0, 29, 69, 0.512)),
-  url('images/achievementpicture.jpg');
+  url('images/meet2018.jpg');
   width: 1500px;
   height: 450px;
   position: relative;
@@ -515,12 +519,12 @@ nav .menu{
  background-size: cover;
 }
 .counters {
-	background: #001d45;
-	color: #fffdfd;
+	background: #001D45;
+	color: #ffffff;
 	padding: 40px 90px;
   margin: 0px 150px;
-	border: 5px rgb(255, 255, 255) solid;
-  top: -3px;
+ border: 8px #ffffff solid; 
+  top: -90px;
   position: relative;
 }
 
