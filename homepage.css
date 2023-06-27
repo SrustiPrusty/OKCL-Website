@@ -556,12 +556,14 @@ footer{
   height: 370px;
   padding: 50px 100px;
   background-color: #272727;
+  
 }
 footer .foot-container{
   width: 100%;
   display: grid;
-  grid-template-columns: 5fr 2fr;
-  grid-gap: 10px;
+  grid-template-columns: repeat(3, 400px);
+  grid-gap: 60px;
+  margin-left: 50px;
 }
 footer .foot-container .contact-info h2{
   position: relative;
@@ -569,11 +571,13 @@ footer .foot-container .contact-info h2{
   font-weight: 600;
   margin-bottom: 20px;
   font-size: 20px;
+  margin-left: -120px;
 }
 footer .foot-container .contact-info p{
   color: rgb(183, 183, 183);
   font-size: 15px;
   margin-bottom: 0px;
+  margin-left: -120px;
 }
 footer .foot-container .contact-info .sci{
   margin-top: 20px;
@@ -593,6 +597,7 @@ footer .foot-container .contact-info .sci li a{
   align-content: center;
   justify-content: center;
   text-decoration: none;
+  margin-left: -120px;
 }
 footer .foot-container .contact-info .sci li a i{
   color: white;
