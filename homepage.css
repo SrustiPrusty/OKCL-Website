@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300;400;500;600;700&family=Poppins:wght@400;600&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -558,17 +559,15 @@ nav .menu{
   letter-spacing: 0.1rem;
   font-size: 2.4rem;
 }
-.bothfbandtwitter{
+.fb-twitter-insta{
   margin-top: 45px;
 }
 
 .facebook-section{
-  width: 50%;
-  margin-left: 320px;
+  margin-left: 120px;
 }
 .twitter-section{
-  width: 50%;
-  margin-left: 850px;
+  margin-left: 650px;
   margin-top: -403px;
 }
 iframe{
@@ -579,9 +578,15 @@ iframe{
   -webkit-box-shadow: 2px 2px 4px #ccc;
   box-shadow: 2px 2px 4px #ccc;
 }
-
+.instagram-section{
+  margin-top: -403px;
+  margin-left: 1030px;
+  background-color: rgb(255, 255, 255);
+  height: 400px;
+  overflow-y: hidden;
+}
 footer{
-  margin-top: 60px;
+  margin-top: 120px;
   position: relative;
   width: 100%;
   height: 370px;
