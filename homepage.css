@@ -562,14 +562,14 @@ nav .menu{
   margin-top: 45px;
 }
 
-.twitter-section{
-  width: 50%;
-  margin-left: 250px;
-}
 .facebook-section{
   width: 50%;
-  margin-left: 820px;
-  margin-top: -400px;
+  margin-left: 320px;
+}
+.twitter-section{
+  width: 50%;
+  margin-left: 850px;
+  margin-top: -403px;
 }
 iframe{
   -moz-border-radius: 10px;
