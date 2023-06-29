@@ -280,8 +280,8 @@ nav .menu{
   background-color: transparent;
 }  
 .os-citpart{
-  background-color: rgb(255, 255, 255);
-  width: 430px;
+  background-color: #f78222;
+  width: 650px;
   height: 200px;
   box-sizing: border-box;
   margin-top: 125px;
@@ -400,6 +400,14 @@ nav .menu{
 #fourth { background-color: #a0a0a0; }
 #fifth { background-color: #eae7e4; }
 #sixth { background-color: #a0a0a0;}  */
+
+.banner .wave2{
+position: absolute;
+ width: 100%;
+ left: 0;
+ top: 96rem;
+ 
+}
 .programs{
   background-image: linear-gradient(to right, #ffffff, #ffffffae);
 }
@@ -504,7 +512,7 @@ nav .menu{
 }
 .achieve h1{
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 10rem;
   color:#001D45;
   padding: 0.5rem;
   letter-spacing: 0.1rem;
