@@ -321,15 +321,16 @@ nav .menu{
   margin-top: 5rem;
   font-size: 1.5rem;
   color: #001D45;
-  margin-left: 125px;
+  margin-left: 145px;
   margin-bottom: 10px;
 } 
 .os-content p {
   margin-right:2rem;
   font-size: 0.98rem;
   font-weight: 400;
-  margin-left: 50px;
+  margin-left: 20px;
   width: 600px;
+  text-align: center;
 }
 
 .card1{
@@ -340,7 +341,7 @@ nav .menu{
     background-color: rgb(255, 255, 255);
     border: 1px solid #cacaca8b;
     margin-top: 20px;
-    margin-left: 175px;
+    margin-left: 155px;
     box-shadow: 4px 4px #000000e2;
     z-index: 1;
 }
@@ -350,7 +351,7 @@ nav .menu{
   object-fit: contain;
   border-radius: 10px;
   margin-top: 15px;
-  margin-left: 70px;
+  margin-left: 60px;
 }
 .os-citbutton button{
   height: 40px;
@@ -358,7 +359,7 @@ nav .menu{
   border-radius: 5px;
   border: none;
   margin-top: 25px;
-  margin-left: 280px;
+  margin-left: 250px;
   border: 2px solid #F78222;
   font-size: 16px;
   letter-spacing: 0.1rem;
@@ -380,7 +381,7 @@ nav .menu{
   padding: 10px;
   margin-left:16rem;
   margin-top: 1rem;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   color: #001D45;
 } 
 
@@ -434,7 +435,6 @@ position: absolute;
  width: 100%;
  left: 0;
  top: 96rem;
- 
 }
 .programs{
   background-image: linear-gradient(to right, #ffffff, #ffffffae);
