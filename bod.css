@@ -114,12 +114,100 @@ nav .menu{
 .buttonmenu button:hover{
     color: #F78222;
     background: rgb(0, 0, 0);
-    
 }
+.bodstarts{
+  max-height: 100vh;
+}
+.bodheading h1{
+ font-size: 40px;
+ text-align: center;
+ margin-top: 120px;
+ color: #001D45;
+ letter-spacing: 0.1rem;
+}
+.bod-img{
+  background-image: linear-gradient(to right, rgba(0, 29, 69, 0.4), rgba(0, 29, 69, 0));
+  width: 100%;
+  height: 180vh; 
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-top: -200px;
+  background-repeat: no-repeat;
+}
+.bodcards{
+  position: relative;
+  top: -1080px;
+  justify-content: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+  .bodcards .bodcard{
+      width: 500px;
+      height: 250px;
+      border-radius: 10px;
+      overflow: hidden;
+      background-color: rgb(255, 255, 255);
+      border: 2px solid grey;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      margin: 20px;
+      box-shadow: 4px 4px #61616170;
+    }
+    .bodcard:hover{
+      box-shadow: 4px 10px 15px grey;
+      border: 2px solid grey;
+    }
+    .bodcard-img{
+  
+      width: 60%;
+      height: 70%;
+      object-fit: contain;
+      background-color: transparent;
+      margin-top: 20px;
+      margin-left: -42px;
+      border-radius: 80px;
+    }
+  .bodcard-body{
+      width: 70%;
+      height: 100%;
+      top: 0;
+      position: absolute;
+      font-weight: 800;
+      padding: 20px;
+      right: 0;
+    }
+    .bodcard-name{
+      font-size: 20px;
+      margin: 10px 20px;
+      font-weight: 800;
+      float: right;
+      padding: 5px;
+      color: #001d45;
+    }
+    .bodcard-position{
+      font-size: 14px;
+      margin-top: -18px; 
+      margin-left: 25px;
+      font-weight: 600;
+      text-align: center;
+      color: #656565;
+      border-bottom: 1px solid #001D45 ;
+    }
+    .bodcard-info{
+      color: #727272;
+      font-size: 13px;
+      margin-top: 40px;
+      font-weight: 400;
+      margin-left: 50px;
+      text-align: center;
+    }
 
 /* FOOTER STARTS  */
 
 footer{
+  top: 390px;
     margin-top: 60px;
     position: relative;
     width: 100%;
@@ -209,6 +297,8 @@ footer{
     text-decoration: none;
   }
   .copyright_text{
+    position: relative;
+    top: 390px;
     width: 100%;
     background-color: white;
     padding: 20px 100px 30px;
@@ -218,6 +308,7 @@ footer{
     font-size: 14px;
     font-weight: 600;
     background-color: #222222;
+    margin-bottom: 0;
   }
 
   
