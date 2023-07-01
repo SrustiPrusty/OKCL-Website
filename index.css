@@ -50,7 +50,22 @@ nav .menu{
   justify-content: space-between;
   /* padding: 0 0px; */
 }
-
+/* .translate-ltr{
+  margin-top: -40px;
+}
+.translate-ltr{
+  margin-top: -40px;
+}
+.goog-te-banner-frame{
+  display: none;
+  margin-top: -20px;
+}
+.goog-logo-link{
+  display: none !important; 
+}
+.goog-te-gadget{
+  color: transparent !important;
+} */
 .logo{
   display: flex;
   align-items: center;
